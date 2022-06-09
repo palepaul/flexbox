@@ -1,0 +1,38 @@
+.container{
+    height : 100vh;
+    display: flex;
+    gap: 25px;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    /* align-content: flex-start;
+    flex-wrap: wrap;
+    without the flex-wrap align-content won't work
+    Also, this won't work along align-items, so use one*/
+ }
+ 
+ .box {
+     width: 140px;
+     height: 140px;
+     background-color: skyblue;
+     border: 2px solid black;
+     font-size: 65px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .box.one {
+     flex-grow: 1;
+ }
+
+.box.two {
+    align-self: center;
+    flex-grow: 2;
+}
+
+.box.three {
+    flex-grow: 1
+}
