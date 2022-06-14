@@ -4,7 +4,7 @@ Flex box advanced layout:
 
 Inside each of these div classes, we have added a div class container too. 
 
-2. navbar has a logo and 3 list items, header has an image, heading andd paragraph and finally, the boxes has three boxes with their own heading and paragraph. 
+2. navbar has a logo and 3 list items, header has an image, heading and paragraph and finally, the boxes has three boxes with their own heading and paragraph. 
 
 Point of interest:
 
@@ -74,8 +74,6 @@ This is done to customize the list item text
 }
 
 To add a different color to the list item, when you hover your mouse over it
-
----------------------------
 
 Flexbox part: 
 
